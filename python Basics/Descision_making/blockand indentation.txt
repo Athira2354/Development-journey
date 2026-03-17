@@ -1,0 +1,48 @@
+food:
+    breakfast:
+
+        Masala Dosa
+        poori bhaji
+        idli-vada
+        tea/cofee
+
+    lunch:
+
+        Meals
+        veg biriyani
+        chicken biriyani
+
+    Dinner:
+
+        Meals
+        Chicken biriyani
+        Manthi
+        alpham
+        fried rice
+
+    Snacks:
+        vada
+        parippuvada
+        cutlet
+
+
+
+
+movies:
+    malayalam:
+
+        m1
+        m2
+
+    Hindi:
+
+        h1
+        h2
+
+    Tamil:
+        t1
+        t2
+
+
+
+

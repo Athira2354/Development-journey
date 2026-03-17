@@ -1,0 +1,10 @@
+1,break_fast,idly,175,11-1-2025,hari
+2,break_fast,tea,75,11-1-2025,hari
+3,break_fast,coffee,175,11-1-2025,hari
+4,lunch,meal,375,11-1-2025,hari
+5,lunch,vb,475,11-1-2025,hari
+6,dinner,fried rice,175,11-1-2025,hari
+7,dinner,mandhi,175,11-1-2025,hari
+8,snacks,banana,175,11-1-2025,hari
+9,snacks,lays,175,11-1-2025,hari
+10,dinner,puttu,175,11-1-2025,hari

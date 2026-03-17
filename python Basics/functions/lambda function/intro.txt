@@ -1,0 +1,17 @@
+lambda function
+-----------------------------------------
+Anonymous function with single expression
+
+suntax:
+----------
+var_name=lambdap1,p2:expression
+print(op(num1,num2))
+eg:
+------------
+
+add=lambda num1,num2:n1+n2
+prind(add(100,200))
+
+
+sub=lambda num1,num2:n1-n2
+prind(sub(100,200))

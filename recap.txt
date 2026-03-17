@@ -1,0 +1,58 @@
+# python-(syntax,rules)
+interpreted
+coding notation :
+identifiers
+
+
+variable-------|
+class_name     |-----places where we are giving names 
+function-------|
+
+
+camel case =>variableName, commonly used in java
+snake case =>python[variable_name,function_name,python file_name]
+pascalCase=> all languages[ClassName]
+kebab vase=>html,css
+
+
+variable:
+    varialble_name=value
+datatypes:
+    int
+    float
+    str
+    bool
+
+
+    collection type
+
+operators:
+    Arithematic operator(+,-,*,%,/)
+    Relational operator( >=,<=,>,<,==,!=)
+    logical operator(and,or,not)
+
+decision making:
+    if else
+    if...elif...else
+    match case
+
+looping
+    while
+    for
+
+funtions
+
+string and string methods
+    oops
+        class-design pattern
+        object-real word entity
+    class Bike:
+        def start
+            pass
+    
+
+collection - it is a set of objects
+            list
+            Tuple
+            dictionary
+            

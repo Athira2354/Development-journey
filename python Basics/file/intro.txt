@@ -1,0 +1,16 @@
+Basic file operations
+-----------------------------------
+read()-reads the data in text file to a python file
+write()-convet the data in python file to txt file
+        while writing a python file to txt file the data's that are already in txt file will be overwited
+append()
+
+file read.py
+------------------
+file_reference=open("players.txt","a")
+for line in fr:
+    print(line)
+
+map()-appliying a 
+filter()- 
+reduce()-

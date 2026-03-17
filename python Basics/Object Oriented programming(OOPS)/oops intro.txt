@@ -1,0 +1,40 @@
+Object Oriented Programming-
+------------------------------
+
+class - is a blueprint,template,plan 
+object- is a realworld entity
+
+
+class contain atrributes and method
+
+for method calling- we use object instance
+
+
+object= class_name(variable_name)
+syntax
+----------
+classname:
+        atr1
+        atr2
+        |
+
+
+self- is used to represent to point  the current instance
+
+constructors
+-------------- 
+initialize the attributes of an instance
+in every language constructor has different names
+in python  constructor has special name =__init__
+no need of calling constuctors seperatelly 
+        it means constructors automatically invokes during object creation-
+
+
+inheritance
+------------------------
+
+It allows us to create a new class from an existing one.
+The newly created class is known as the subclass (child or derived class).
+The existing class from which the child class inherits is known as the superclass (parent or base class).
+
+
