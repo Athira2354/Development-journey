@@ -58,17 +58,17 @@ countries_data = [
 
 # total number countries
 
-# print(f'total number of countries =',len(countries_data))
+print(f'total number of countries =',len(countries_data))
 
 
 # total number of Asian countries
-# asian_countries=[c.get("country_name") for c in countries_data if c.get("region")=="Asia"]
-# print(f'Asian_countries =,{asian_countries}')
+asian_countries=[c.get("country_name") for c in countries_data if c.get("region")=="Asia"]
+print(f'Asian_countries =,{asian_countries}')
 
 # country with highest population
 
-# countries_with_highest_population=max(countries_data,key=lambda c:c.get("population"))
-# print(countries_with_highest_population)
+countries_with_highest_population=max(countries_data,key=lambda c:c.get("population"))
+print(countries_with_highest_population)
 
 # sort countries wrt  population
 countries_with_worst_population=sorted(countries_data,key=lambda c:c.get("population"))
@@ -80,11 +80,11 @@ print(mapped_country)
 
 # display all unique region
 
-# unique_region=[c.get("country_name") for c in countries_data  if c.get("region")=="Asia"]
-# print(f"unique_region={unique_region}")
+unique_region=[c.get("country_name") for c in countries_data  if c.get("region")=="Asia"]
+print(f"unique_region={unique_region}")
 
-# all_unique_region={c.get("country_name") for c in countries_data}
-# print(all_unique_region)
+all_unique_region={c.get("country_name") for c in countries_data}
+print(all_unique_region)
 
 #independent country names
 

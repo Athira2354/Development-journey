@@ -1,58 +1,78 @@
-# python-(syntax,rules)
-interpreted
-coding notation :
-identifiers
+Python 
+=======
+
+variables : container for storing values 
+            variable_name = value
+
+datatypes: int,str, float,bool , collection type [list,tuple,set,dictionary]
+
+operators: 
+            Arithmetic(+,-,*,/,//,**,%)
+            relational(<,>,<=,>=,==,!=)
+            logical (and,or,not)
+            membeship(in,not in)
+            identity(is)
+
+decision making: 
+                    if..else
+                    if..elif...else
+                    match...case
+looping:
+                    for..
+                    while..
+                    break
+                    continue
+
+function:
+                    def function_name(p1,p2):
+
+                        return value
+
+                    lambda function
+
+                    *args , **kwargs
+
+mutable and immutable: mutable(list,dictionary,set) immutable(tuple,str,int,float,bool)
+
+string and string method:
+
+list and list methods
+
+tuple and tuple methods
+
+set and set methods
+
+dictionary and dictionary methods
+
+nested collection
+
+slicing [start:stop:step]
+
+comprehension [list,set,dictionary]
+
+file opeartion : open() read,write append , readimng from csv 
+
+error handling : try , except , finally , raise , assert
+
+object oriented programming:
+                                class
+                                object
+                                constructor
+                                self 
+                                super()
+                                inheritance
+                                polymorphism
+                                    -method overloading
+                                    -method overriding
+                                abstraction:
+                                    -ABC
+                                    -abstractmethod
+
+deep-copy and shallow-copy
 
 
-variable-------|
-class_name     |-----places where we are giving names 
-function-------|
 
 
-camel case =>variableName, commonly used in java
-snake case =>python[variable_name,function_name,python file_name]
-pascalCase=> all languages[ClassName]
-kebab vase=>html,css
 
 
-variable:
-    varialble_name=value
-datatypes:
-    int
-    float
-    str
-    bool
 
-
-    collection type
-
-operators:
-    Arithematic operator(+,-,*,%,/)
-    Relational operator( >=,<=,>,<,==,!=)
-    logical operator(and,or,not)
-
-decision making:
-    if else
-    if...elif...else
-    match case
-
-looping
-    while
-    for
-
-funtions
-
-string and string methods
-    oops
-        class-design pattern
-        object-real word entity
-    class Bike:
-        def start
-            pass
-    
-
-collection - it is a set of objects
-            list
-            Tuple
-            dictionary
-            
