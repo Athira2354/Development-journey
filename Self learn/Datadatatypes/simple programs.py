@@ -55,7 +55,7 @@ breadth=8
 area=length*breadth
 print(f'area of rectangle= {area}')
 
-# Write a program to calculate the simple interest using formula:
+#10 Write a program to calculate the simple interest using formula:
 # SI = (P × R × T) / 100
 
 principle_amount=10000
