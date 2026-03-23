@@ -1,0 +1,17 @@
+DATA TYPES IN SQL
+------------------
+int
+float
+varchar()
+char()
+boolean
+enum
+
+
+CONSTRAINTSS
+----------------------------------
+NULL
+NOT_NULL
+CHECK
+DEFAULT-to store default values
+UNIQUE--->no duplicates
