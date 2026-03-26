@@ -15,7 +15,7 @@ insert into movie(tittle,language,rating,run_time_in_minutes,director,genre)valu
 
 insert into movie(tittle,language,rating,run_time_in_minutes,director,genre)values("baahubali","tamil",4.5,120,"rajamouli","action");
 
-insert into movie(tittle,language,rating,run_time_in_minutes,director,genre)values("bouganville","malayam",4,175,"amal neerad","thriller" );
+insert into movie(tittle,language,rating,run_time_in_minutes,director,genre)values("bouganville","malayalam",4,175,"amal neerad","thriller" );
 
 insert into movie(tittle,language,rating,run_time_in_minutes,director,genre)values("Pk","hindi",4.5,120,"anubav sihna","action" );
 
