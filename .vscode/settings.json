@@ -1,0 +1,6 @@
+{
+    "editor.inlayHints.padding": false,
+    "editor.tabCompletion": "on",
+    "editor.stickyTabStops": true,
+    "editor.tabFocusMode": true
+}
