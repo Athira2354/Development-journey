@@ -13,18 +13,20 @@ movies = [
 all_movie_tittle= [lst[1]for lst in movies]
 print(all_movie_tittle)
 
-# movie with top rating
+# # movie with top rating
 top_rated_movie=max([lst[4] for lst in movies])
-# max_rating=max([lst[4] for lst in movies])
+max_rating=max([lst[4] for lst in movies])
 name=[lst[1] for lst in movies if lst[4]==top_rated_movie]
 print (top_rated_movie)
 
-# display kannada movies
+# # display kannada movies
 
 kannada_movies=[lst[1] for lst in movies if lst[3]=="Kannada"]
 print(kannada_movies)
 
 # display movies whre actor is yash
+movies_with_yash=[lst[1] for lst in movies if lst[2]=="Yash"]
+print(f'yash movies={movies_with_yash}')
 # which language most number of movies
 language_lst=[m[3] for  m in movies]
 language_count={l:language_lst.count(l) for l in language_lst}

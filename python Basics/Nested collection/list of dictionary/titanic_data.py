@@ -18,12 +18,15 @@ titanic_data = [
     {"id": 17, "survived": 0, "pclass": 2, "class": "Second", "name": "Williams, Mr. Charles Eugene", "sex": "male", "age": None, "fare": 13.00}
 ]
 
-
-
-
 # q2 : displau unique passenger class 
+unique_passenger_class=[(di for di in titanic_data if di.get("pclass")==1)]
+print(f"unique_passenger_class={len(unique_passenger_class)}")
 # q3 number of female passengers
+female_passenger=[di for di in titanic_data if di.get("sex")=="female"]
+print(f"female passengers={len(female_passenger)}")
 # q4: number of survived childs 
+survived_childs=[di for di in titanic_data if di.get("survived")==1]
+print(f"survived_childs={len(survived_childs)}")
 # q5: name whose fare > 30
 # q6: number survived female
 # q7:top fare
@@ -34,4 +37,4 @@ titanic_data = [
 survived_passengers=[di for di in titanic_data if di.get("survived")==1]
 print(f"survived passengers={len(survived_passengers)}")
 
-female_passenger=[di for di in titanic_data]
+

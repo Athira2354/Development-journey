@@ -58,7 +58,7 @@ print(f'top fare ={top_fare}')
 survived_people=[(passengers["name"] for passengers in titanic_data if passengers["survived"]==1)]
 print(f'survived peoples ={survived_people}')
 # q9:survived classes
-survived_classes=[di for di in titanic_data if di.get["survived"]==1]
+survived_classes=[di for di in titanic_data if di.get("survived")==1]
 print(f'survived class= {survived_classes}')
 
 # q10:female survival rate

@@ -23,7 +23,7 @@ print(products)
 product_names=[lst[1] for lst in products]
 print(product_names)
 
-# product with the highest price
+# 2.product with the highest price
 max_price_product=products[0]
 max_price_product=[lst[4] for lst in products if lst[4]>max_price_product[4]]
 max_price_product=products

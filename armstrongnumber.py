@@ -15,4 +15,4 @@ def is_armstrong(n):
             print(num,"is not armstrong")
         
        
-print(is_armstrong(153))
+print(is_armstrong(121))
